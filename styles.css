@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 20px;
+}
+
+.left-section {
+    width: 30%;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.right-section {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.right-section h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.right-section p {
+    margin: 5px 0;
+}
+
+.right-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+}
+
+.objective, .section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    margin: 0 -20px 10px -20px;
+    border-radius: 5px 5px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f39c12;
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #34495e;
+}
+
+.declaration {
+    margin-top: 30px;
+}
+
+.signature {
+    text-align: right;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+    }
+
+    .right-section {
+        padding-left: 0;
+    }
+
+    h2 {
+        margin: 0 -10px 10px -10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    .signature {
+        margin-top: 30px;
+    }
+}
+#raj{text-align: center;
+    background-color: #ecf0f4;
+    color:black;
+    width: 100%;
+    border-radius: 80%;
+    position: relative;
+    top: 20px;}
